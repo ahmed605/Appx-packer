@@ -1,9 +1,13 @@
 version: 1.0.{build}
 build:
   verbosity: minimal
+artifacts:
+- path: build/*.exe
+  name: TheNew
 deploy:
 - provider: GitHub
   tag: v1.0
+  artifacts: TheNew
   release: v1.0
   auth_token:
     secure: XBjMjEzRrAS6KJVXRIHqcfvHbLma63NHtO0y1gCUgVrpwLe6M/ww3NL5ghhtQnzh
