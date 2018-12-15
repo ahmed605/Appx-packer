@@ -2,7 +2,7 @@ version: 1.0.{build}
 build:
   verbosity: minimal
 artifacts:
-- path: C:\projects\appx-packer\Appxpacker\bin\Debug\*.exe
+- path: Appxpacker\bin\Debug\Appx packer.exe
   name: TheNew
 deploy:
 - provider: GitHub
