@@ -10,5 +10,5 @@ deploy:
   artifacts: TheNew
   release: v1.0
   auth_token:
-    secure: SECRET
+    secure: df968ed6d2cf8764eb9160dd657fd17c108eb68a
   prerelease: true
