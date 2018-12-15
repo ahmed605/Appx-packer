@@ -6,9 +6,7 @@ artifacts:
   name: TheNew
 deploy:
 - provider: GitHub
-  tag: v1.0
   artifacts: TheNew
-  release: v1.0
   auth_token:
-    secure: d08e28dfc51747cafe1a1f52f64a0ca635580d26
+    secure: 8bbb37e27e05327b4a28865232396e289a1edb4b
   prerelease: true
