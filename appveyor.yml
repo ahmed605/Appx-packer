@@ -2,7 +2,7 @@ version: 1.0.{build}
 build:
   verbosity: minimal
 artifacts:
-- path: Appxpacker\bin\Debug\Appx packer.exe
+- path: Appxpacker\bin\Debug\*.exe
   name: TheNew
 deploy:
 - provider: GitHub
@@ -10,5 +10,5 @@ deploy:
   artifacts: TheNew
   release: v1.0
   auth_token:
-    secure: df968ed6d2cf8764eb9160dd657fd17c108eb68a
+    secure: d08e28dfc51747cafe1a1f52f64a0ca635580d26
   prerelease: true
