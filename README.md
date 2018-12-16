@@ -1,5 +1,5 @@
 # Appx-packer
-An appx packer
+An appx packer [![Build status](https://ci.appveyor.com/api/projects/status/g9c8v4b7jg22hmai?svg=true)](https://ci.appveyor.com/project/ahmed605/appx-packer)
 
 # Requirements
 you must create a folder called appxpacker next to the executable and it needs to contain the following files:
